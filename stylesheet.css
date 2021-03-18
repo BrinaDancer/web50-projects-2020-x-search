@@ -1,0 +1,125 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+  float: right;
+}
+
+li {
+    display: inline;
+    padding: 5px; 
+}
+
+a:link{
+  text-decoration: none;
+  color:black;
+}
+
+a:hover {
+  color:skyblue; 
+}
+
+.google-logo {
+    position: absolute;
+    margin: 10em 32.5em; 
+  }
+
+h2 {
+    color: red; 
+    padding: 15px; 
+}
+
+h3 {
+    position:absolute; 
+    margin: 12.8em 32.7em; 
+    color: red;
+}
+  
+  #searchbar {
+    position: absolute;
+    top: 270px;
+    left: 375px; 
+    width: 580px;
+    height: 30px;
+    border: 1px solid #cdcdcd;
+    border-radius: 25px;
+  }
+  
+  #search_button {
+    position: absolute;
+    top: 315px;
+    left: 550px;
+    border: 1px solid #dcdcdc;
+    border-color: rgba(0, 0, 0, 0.1);
+    color: #444!important;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 8px;
+    background: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
+    border-radius: 5px;
+  }
+#image_search
+  {
+    position: absolute;
+    top: 315px;
+    left: 610px;
+    border: 1px solid #dcdcdc;
+    border-color: rgba(0, 0, 0, 0.1);
+    color: #444!important;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 8px;
+    background: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
+    border-radius: 5px;
+  }
+
+  #lucky_button {
+    position: absolute;
+    top: 315px;
+    left: 680px;
+    border: 1px solid #dcdcdc;
+    border-color: rgba(0, 0, 0, 0.1);
+    color: #444!important;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 8px;
+    background: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
+    border-radius: 5px;
+  }
+  .advanced-search-container .form-group {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 15px 0;
+  }
+  .advanced-search-container .form-group label {
+    width: 16%;
+    font-size: 14px;
+  }
+  .advanced-search-container .form-group input[type=text] {
+    width: 49%;
+    padding: 2px 0;
+  }
+  .advanced-search-container .form-group .clarification {
+    font-size: 11px;
+    width: 30%;
+    margin-left: 1%;
+  }
+  .advanced-search-container .form-group .clarification .monospace {
+    font-family: monospace;
+  }
+  .advanced-search-container .form-group .right-align {
+    width: 50%;
+  }
+
+  input.blue-button {
+    background-color: dodgerblue;
+    color: white;
+    font-size: smaller;
+    max-width: 200px;
+    border-radius: 2px;
+    border: 1px solid #156bbd;
+    float: right;
+    padding: 10px 2px;
+    margin: 0;
+  }
